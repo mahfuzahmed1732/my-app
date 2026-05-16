@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Navbar = () => {
   
   return(
-      <nav className="sticky top-0 z-50 bg-red-700 p-5 w-full flex justify-between items-center">
+      <nav className="sticky top-0 z-50 bg-green-700 p-5 w-full flex justify-between items-center">
         <div className="">
           <h2 className="text-xl md:text-2xl font-bold text-white uppercase">My logo</h2>
         </div>
