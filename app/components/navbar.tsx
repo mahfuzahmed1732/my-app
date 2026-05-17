@@ -15,28 +15,28 @@ const Navbar = () => {
       {/* menu section */}
       <div className="flex gap-5">
         <Link
-          className="text-white text-md hover:text-red-500 transition-colors cursor-pointer"
+          className="text-white text-md hover:text-green-400 transition-colors cursor-pointer"
           href="/"
         >
           Home
         </Link>
 
         <Link
-          className="text-white text-md hover:text-red-500 transition-colors"
+          className="text-white text-md hover:text-green-400 transition-colors"
           href="/about"
         >
           About
         </Link>
 
         <Link
-          className="text-white text-md hover:text-red-500 transition-colors"
+          className="text-white text-md hover:text-green-400 transition-colors"
           href="/contact"
         >
           Contact
         </Link>
 
         <Link
-          className="text-white text-md hover:text-red-500 transition-colors"
+          className="text-white text-md hover:text-green-400 transition-colors"
           href="/blog"
         >
           Blog
@@ -49,10 +49,10 @@ const Navbar = () => {
           type="text"
           name="search"
           placeholder="search any..."
-          className="w-[350px] rounded-full outline-none hover:outline-red-400 transition-colors px-3 py-1 pr-10"
+          className="w-[300px] rounded-full outline-none hover:outline-green-400 transition-colors px-3 py-1 pr-10"
         />
 
-        <IoSearchSharp className="text-purple-700 text-2xl absolute right-3 top-1/2 -translate-y-1/2 hover:text-red-500 cursor-pointer" />
+        <IoSearchSharp className="text-green-400 text-2xl absolute right-3 top-1/2 -translate-y-1/2 hover:text-green-950 cursor-pointer" />
       </div>
 
     </nav>
