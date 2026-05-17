@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { IoSearchSharp } from "react-icons/io5";
+import { LoginButton } from "./loginButton";
 
 const Navbar = () => {
   return (
@@ -44,7 +45,8 @@ const Navbar = () => {
       </div>
 
       {/* search section */}
-      <div className="relative">
+      <div className="flex items-center gap-2">
+        <div className="relative">
         <input
           type="text"
           name="search"
@@ -53,8 +55,11 @@ const Navbar = () => {
         />
 
         <IoSearchSharp className="text-green-400 text-2xl absolute right-3 top-1/2 -translate-y-1/2 hover:text-green-950 cursor-pointer" />
-      </div>
+       </div>
 
+       {/* login section */}
+       <LoginButton />
+      </div>
     </nav>
   );
 };
