@@ -6,7 +6,7 @@ import { useState } from "react";
 import { IoSearchSharp, IoCloseSharp } from "react-icons/io5";
 import { MdLogin, MdMenu } from "react-icons/md";
 
-const Navbar = (): JSX.Element => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
