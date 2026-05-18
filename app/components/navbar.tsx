@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { IoSearchSharp, IoCloseSharp } from "react-icons/io5";
 import { MdLogin, MdMenu } from "react-icons/md";
@@ -14,9 +15,18 @@ const Navbar = (): JSX.Element => {
       <div className="flex justify-between items-center">
 
         {/* logo section */}
+        <div className="flex items-center">
+        <Image
+         src="/logo.png"
+         width={50}
+         height={50}
+         className="w-[40px] md:w-[50px] h-auto"
+         alt="logo"
+        />
         <h2 className="text-2xl md:text-3xl font-bold text-white uppercase tracking-wider">
           travellx
         </h2>
+        </div>
 
         {/* desktop menu */}
         <div className="hidden md:flex gap-5">
