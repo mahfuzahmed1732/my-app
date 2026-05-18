@@ -23,8 +23,8 @@ const Navbar = (): JSX.Element => {
          className="w-[40px] md:w-[50px] h-auto"
          alt="logo"
         />
-        <h2 className="text-2xl md:text-3xl font-bold text-white uppercase tracking-wider">
-          travellx
+        <h2 className="text-2xl md:text-3xl font-bold text-white tracking-wider">
+          travelLX
         </h2>
         </div>
 
