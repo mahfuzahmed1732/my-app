@@ -5,8 +5,8 @@ import { useState } from "react";
 import { IoSearchSharp, IoCloseSharp } from "react-icons/io5";
 import { MdLogin, MdMenu } from "react-icons/md";
 
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const Navbar = (): JSX.Element => {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
     <nav className="sticky top-0 z-50 bg-green-700 px-3 md:px-8 py-3 w-full">
